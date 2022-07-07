@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple_promodoro_timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="container">
+        <div class="content">
+            <div class="main">
+                <div class="box work">
+                    <h1 id="work__time"><span id="minute">25</span> : <span id="second">00</span></h1>
+                </div>
+                <div class="box break">
+                    <h1 id="break__time"><span id="break__minute">05</span>:<span id="break__second">00</span></h1>
+                </div>
+            </div>
+            <div class="control">
+                <button id="start">Start</button>
+                <button id="pause">Pause</button>
+                <button id="reset">Reset</button>
+            </div>
+        </div>
+    </section>
+    <audio id="myAudio">
+        <source src="audio/clock-alarm-8761.mp3" type="audio/ogg">
+    </audio>
+    <script src="script.js"></script>
+</body>
+</html>
